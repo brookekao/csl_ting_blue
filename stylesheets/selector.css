@@ -1,0 +1,60 @@
+/* line 1, ../sass/selector.scss */
+#wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: pink;
+  margin: 0 auto;
+}
+/* line 8, ../sass/selector.scss */
+#wrap h1 {
+  position: relative;
+  display: block;
+  font-family: 'Mrs Sheppards', cursive;
+  font-size: 3.5em;
+  top: 50%;
+  margin-top: -1em;
+
+}
+/* line 15, ../sass/selector.scss */
+#wrap h1 .line {
+  font-family: 'Permanent Marker', cursive;
+  display: inline-block;
+}
+/* line 18, ../sass/selector.scss */
+#wrap h1 .line .mood {
+  display: inline-block;
+  width: auto;
+  height: 1.2em;
+  overflow: hidden;
+  position: relative;
+  padding: 0 0.2em;
+  margin: 0 0.1em;
+  font-size: 0.9em;
+  top: 0.3em;
+}
+/* line 28, ../sass/selector.scss */
+#wrap h1 .line .mood:after {
+  content: "__________________________";
+  position: absolute;
+  left: 0;
+  top: 0.8em;
+  font-size: 0.7em;
+}
+/* line 40, ../sass/selector.scss */
+#wrap ul#tooltip {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  padding-top: 1em;
+  margin-left: -0.8em;
+}
+/* line 47, ../sass/selector.scss */
+#wrap ul#tooltip li {
+  font-size: 0.5em;
+  text-transform: lowercase;
+}

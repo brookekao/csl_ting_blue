@@ -1,0 +1,32 @@
+section.hero {
+padding-bottom: 0;
+}
+
+.cta {
+  @include border-radius($border-radius);
+  position: relative;
+  background-color: white;
+  color: $black;
+  padding: 25px 26px;
+  p {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  a.button {
+    margin-left: 10px;
+  }
+
+}
+
+.fixed {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  @include border-radius(0);
+}
+
+
+
+    

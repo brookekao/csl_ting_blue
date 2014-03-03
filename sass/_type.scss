@@ -1,0 +1,40 @@
+h1 {
+	font-family: $ProximaSemi;
+	font-size: $h1;
+	margin-bottom: 15px;
+}
+
+h2 {
+  font-size: $h2;
+}
+
+p {
+  font-size: $p;
+  margin-bottom: 36px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+a { 
+  text-decoration: none; 
+  color: $black;
+  &:hover {
+    color: $black;
+    text-decoration: underline;
+  }
+}
+
+a.button {
+	@include border-radius($border-radius);
+	background-color: $black;
+	color: white;
+	font-size: $psmall;
+	font-family: $ProximaRegular;
+	padding: 10px 15px;
+	&:hover {
+		background-color: $lgt-blue;
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,38 @@
+#wrap {
+	width: $maxwidth;
+	margin: 0 auto 130px;
+
+	.one-col {
+	    width: 100%;
+		h1 {
+			padding: 0 20px;
+		}
+		p {
+			padding: 0 95px;
+		}
+	}
+
+	section {
+		padding: 66px 0 80px;
+	}
+
+	.content {
+	    width: 864px;
+		border-bottom: 1px solid $lgt-blue;
+	    margin: 0 50px;
+	}
+
+	video {
+		background-color: $grey;
+		width: 100%;
+	}
+
+
+
+  @import "cta";
+  @import "getstarted";
+  @import "calculator";
+  @import "footer";
+
+ 
+}

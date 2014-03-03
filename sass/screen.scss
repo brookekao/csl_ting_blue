@@ -1,0 +1,29 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/utilities";
+@import "compass/css3";
+@import url("//hello.myfonts.net/count/2a1bb8");
+@font-face {font-family: 'ProximaNova-Semibold';src: url('../webfonts/2A1BB8_4_0.eot');src: url('../webfonts/2A1BB8_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2A1BB8_4_0.woff') format('woff'),url('../webfonts/2A1BB8_4_0.ttf') format('truetype');}  
+@font-face {font-family: 'ProximaNova-Regular';src: url('../webfonts/2A1BB8_5_0.eot');src: url('../webfonts/2A1BB8_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2A1BB8_5_0.woff') format('woff'),url('../webfonts/2A1BB8_5_0.ttf') format('truetype');}
+@import "settings";
+
+body {
+	background: $blue;
+	background: $blue url(../img/crowd@2x.png) no-repeat bottom center;
+	background-size: 100%;
+	font-family: $ProximaRegular;
+	font-size: $font;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+}
+
+@import "type";
+@import "header";
+@import "layout";

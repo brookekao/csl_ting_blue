@@ -1,8 +1,11 @@
 	.calculator {
-	
-		iframe {
-			body, .status-200, .fb_page   {
-				background: transparent;
+		.embedded {
+			iframe {
+				background: white;
+				@include border-radius($border-radius);
+				padding: 34px;
+				margin-left: -51px;
+				margin-bottom: -17px;
 			}
 		}
 	}

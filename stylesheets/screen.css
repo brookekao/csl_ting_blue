@@ -261,9 +261,17 @@ header a.continue {
   display: inline-block;
   width: 32%;
 }
-/* line 4, ../sass/_calculator.scss */
-#wrap .calculator iframe body, #wrap .calculator iframe .status-200, #wrap .calculator iframe .fb_page {
-  background: transparent;
+/* line 3, ../sass/_calculator.scss */
+#wrap .calculator .embedded iframe {
+  background: white;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  padding: 34px;
+  margin-left: -51px;
+  margin-bottom: -17px;
 }
 /* line 1, ../sass/_footer.scss */
 #wrap .footer {
